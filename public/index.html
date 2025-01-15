@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+</head>
+<body>
+<div class="container">
+  <h1>Weather App</h1>
+  <form id="weather-form">
+    <input type="text" name="city" id="city" placeholder="Enter city" required />
+    <button type="submit">Get Weather</button>
+  </form>
+
+  <div id="weather-info"></div>
+
+  <div id="map" style="height: 500px; margin-top: 20px;"></div>
+
+  <!-- Added sections for City Photo and Meme -->
+  <div id="city-photo" style="margin-top: 20px;"></div>
+  <div id="random-meme" style="margin-top: 20px;"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
